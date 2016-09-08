@@ -16,6 +16,7 @@ class Menu extends \yii\widgets\Menu
     public $linkTemplate = '<a href="{url}">{icon} {label}</a>';
     public $submenuTemplate = "\n<ul class='treeview-menu' {show}>\n{items}\n</ul>\n";
     public $activateParents = true;
+    public $encodeLabels = false;
     /**
      * @inheritdoc
      */
